@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="타이머"
+        android:gravity="center"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/bt_start"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/bt_stop"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/bt_clear"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="CLEAR"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+    <Chronometer
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:format="시간 측정 : %s"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
